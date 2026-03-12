@@ -1,0 +1,19 @@
+# Este programa muestra los números primos entre 0 y 100
+# y cuenta cuántos hay
+
+contador = 0
+
+for num in range(2, 101):
+
+    es_primo = True
+
+    for i in range(2, num):
+        if num % i == 0:
+            es_primo = False
+            break
+
+    if es_primo:
+        print(num)
+        contador += 1
+
+print("Cantidad de números primos:", contador)
