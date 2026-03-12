@@ -1,0 +1,4 @@
+# Este programa muestra los números del 0 al 100 usando un ciclo for
+
+for i in range(0, 101):  # range(0,101) genera números desde 0 hasta 100
+    print(i)
